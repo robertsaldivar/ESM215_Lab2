@@ -36,6 +36,14 @@ veg_flow_t
 
 ```{r}
 #Step 2 of the instructions
+veg_sol_mi <- mi.empirical(veg_solar_t)
+veg_geo_mi <- mi.empirical(veg_geo_t)
+veg_flow_mi <- mi.empirical(veg_flow_t)
+
+veg_sol_mi
+veg_geo_mi
+veg_flow_mi
+
 
 ```
 
